@@ -8,7 +8,7 @@ image:
   repository: avian19/go-port
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "10074935391"
+  tag: "10074938993"
 
 ingress:
   enabled: false
