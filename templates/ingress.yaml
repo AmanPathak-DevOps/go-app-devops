@@ -5,11 +5,6 @@ metadata:
   namespace: go-app
   annotations:
     kubernetes.io/ingress.class: alb
-    # alb.ingress.kubernetes.io/group.name: go-lb-group
-    # alb.ingress.kubernetes.io/load-balancer-name: go-lb
-    # alb.ingress.kubernetes.io/certificate-arn: arn:aws:acm:us-east-1:407622020962:certificate/c8ff1ae6-0401-46a9-bb0d-b8a51b644a9d
-    # alb.ingress.kubernetes.io/listen-ports: '[{"HTTP": 80}, {"HTTPS":443}]'
-    # alb.ingress.kubernetes.io/ssl-redirect: '443'
     alb.ingress.kubernetes.io/scheme: internet-facing
     alb.ingress.kubernetes.io/listen-ports: '[{"HTTP": 80}]'
     # alb.ingress.kubernetes.io/group: metabase
