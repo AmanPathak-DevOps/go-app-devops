@@ -7,7 +7,7 @@ metadata:
     kubernetes.io/ingress.class: alb
     alb.ingress.kubernetes.io/group.name: go-lb-group
     alb.ingress.kubernetes.io/load-balancer-name: go-lb
-    alb.ingress.kubernetes.io/certificate-arn: arn:aws:acm:ap-south-1:307497046236:certificate/b4e8b0b7-c6d3-4f5c-ba2d-cd69ca842162
+    # alb.ingress.kubernetes.io/certificate-arn: arn:aws:acm:us-east-1:407622020962:certificate/c8ff1ae6-0401-46a9-bb0d-b8a51b644a9d
     alb.ingress.kubernetes.io/listen-ports: '[{"HTTP": 80}, {"HTTPS":443}]'
     alb.ingress.kubernetes.io/ssl-redirect: '443'
     alb.ingress.kubernetes.io/scheme: internet-facing
@@ -16,7 +16,7 @@ metadata:
 spec:
   ingressClassName: alb
   rules:
-    - host: go.dev-adventure.com
+    - host: amanpathakdevops.study
       http:
         paths:
           - path: /
