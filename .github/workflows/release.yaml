@@ -19,4 +19,4 @@ jobs:
       - name: Run chart-releaser job
         uses: helm/chart-releaser-action@v1.4.0
         env:
-          CR_TOKEN: "${{ secrets.SGITHUB_TOKEN }}"
+          CR_TOKEN: "${{ secrets.GH_TOKEN }}"
