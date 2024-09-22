@@ -3,12 +3,23 @@ entries:
   go-portfolio-chart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-09-22T14:47:28.730419207+05:30"
+    created: "2024-09-22T21:08:05.339609958+05:30"
     description: A Helm chart for Kubernetes
     digest: 32abd861da72d4d785e7460a9f73426df6f28c5ba39cbb9828d830627ad98648
     name: go-portfolio-chart
     type: application
     urls:
-    - https://amanpathak-devops.github.io/go-app-devops/go-portfolio-chart-0.1.0.tgz
+    - go-portfolio-chart-0.1.0.tgz
     version: 0.1.0
-generated: "2024-09-22T14:47:28.729238889+05:30"
+  tetris:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-09-22T21:08:05.339962954+05:30"
+    description: A Helm chart for Kubernetes
+    digest: 85a5d9bd254755e24eb80d7038114efc0c79a8b934c80472fdbbda45d9ea500b
+    name: tetris
+    type: application
+    urls:
+    - tetris-0.1.0.tgz
+    version: 0.1.0
+generated: "2024-09-22T21:08:05.339187433+05:30"
